@@ -9,9 +9,10 @@
 ### 10/04/25:
 * Main:
 ## Links I have Used:
-<a href="https://p5play.org/learn/">Main p5play interactive learning textbook</a>
-<a href="https://p5play.org/learn/sprite">Sprite documentation page for creating buttons and handling interaction</a>
-
+<ul>
+<li><a href="https://p5play.org/learn/">Main p5play interactive learning textbook</a></li>
+<li><a href="https://p5play.org/learn/sprite">Sprite documentation page for creating buttons and handling interaction</a></li>
+</ul>
 ### X/X/XX:
 * Text
 
