@@ -1,9 +1,9 @@
-<script>
-  function setup() {
-	new Canvas(250, 100);
-}
+console.log("Sketch loaded!"); // for debugging
 
-function update() {
-	background('blue');
+function setup() {
+  new Canvas(400, 400); // create a canvas
+
+  let sprite = new Sprite();
+  sprite.text = "Hello!";
+  sprite.color = "blue";
 }
-</script>
