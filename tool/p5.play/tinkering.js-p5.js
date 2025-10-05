@@ -3,7 +3,6 @@ console.log("Sketch loaded!");
 function setup() {
   createCanvas(400, 400);
 
-  // Create a sprite
   let player = new Sprite();
   player.position.x = width / 2;
   player.position.y = height / 2;
