@@ -1,9 +1,17 @@
 console.log("Sketch loaded!");
 
 function setup() {
-  new Canvas(400, 400); // Only works with p5play v3
+  createCanvas(400, 400); // regular p5.js canvas creation
 
   let player = new Sprite();
-  player.text = "Hello!";
-  player.color = "blue";
+  player.x = width / 2;
+  player.y = height / 2;
+  player.color = 'blue';
+  player.text = 'Hello!';
+}
+
+function draw() {
+  background(220); // clear the background
+
+  drawSprites(); // draw all sprites on canvas
 }
