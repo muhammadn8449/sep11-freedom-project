@@ -1,16 +1,18 @@
-console.log("Sketch loaded!");
+let sprite;
 
 function setup() {
-  createCanvas(400, 400);
-
-  let player = new Sprite();
-  player.position.x = width / 2;
-  player.position.y = height / 2;
-  player.color = 'blue';
-  player.text = 'Hello!';
+  new Canvas(3000, 3000); // Keep your original small canvas
+	function circle(x, y){
+		 sprite = new Sprite();
+    sprite.diameter = 50;
+    sprite.x = x;
+    sprite.y = y;
+	}
+	circle(500, 200); circle(200, 100); circle(300, 400); circle(400, 100); circle(500, 100); circle(100, 100);circle(350, 100);circle(600, 100);circle(700, 100);
 }
 
 function draw() {
-  background(220);
-  drawSprites();
+  clear(); // No background
 }
+
+
