@@ -8,11 +8,11 @@ function setup() {
     sprite.x = x;
     sprite.y = y;
 	}
-	circle(500, 200); circle(500, 300); circle();
+	circle(500, 200); circle(500, 300); circle(500, 100); circle(700, 300); circle(600, 300); 
 }
 
 function draw() {
-  clear(); 
+  clear();
 }
 
 
