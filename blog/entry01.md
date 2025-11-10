@@ -6,7 +6,8 @@ I decided to use p5.play as my tool to build a game where the okayer has to pres
 
 So far I have written code to create circles on the preview page in a rectangle shape that will act like buttons later on. Each circle is sprite, and I placed them at different positions. My next goal is to make them light up and know when they are clicked.
 
-```let sprite;
+```
+let sprite;
 
 function setup() {
   new Canvas(3000, 3000);
@@ -22,10 +23,15 @@ function setup() {
 function draw() {
   clear();
 }
-
-
-
 ```
+
+### Source:
+<a href="https://p5play.org/learn/sprite">p5.play</a> - Learn how to make and use sprites for my game
+
+<h4>Youtube Videos:</h4>
+<a href="https://www.youtube.com/watch?v=cPTrLLdCX-Y">Sprite</a> - Learned how to create and animate sprites.
+
+
 
 [Next](entry02.md)
 
