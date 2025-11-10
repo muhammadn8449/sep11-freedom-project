@@ -15,17 +15,5 @@ function draw() {
   clear();
 }
 
-function lightUpRandomButton () {
-  for (let b of buttons){
-    b.shapeColor = color(100);
-  }
 
-  let randomButton = random(buttons);
-
-  randomButton/shapeColor = (255, 255, 0);
-
-  setTimeout(() => {
-    randomButton.shapeColor = color(100);
-  }, 500);
-}
 
