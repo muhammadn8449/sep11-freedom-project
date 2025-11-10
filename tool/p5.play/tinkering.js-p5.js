@@ -1,7 +1,7 @@
 let sprite;
 
 function setup() {
-  new Canvas(3000, 3000);
+  new Canvas(1000, 600);
 	function circle(x, y){
 		 sprite = new Sprite();
     sprite.diameter = 50;
