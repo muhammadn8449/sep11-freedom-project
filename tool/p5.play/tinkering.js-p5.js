@@ -22,4 +22,22 @@ function draw() {
 
 lightRandmButton();
 
+funtion lightRandomButton() {
+  if (litButton) {
+
+  let index = floor(random(buttons,length));
+  litButton = buttons[index];
+
+  litButton.color = 'yellow';
+
+  lightTimeout = setTimeout(() => {
+    litButton.color = 'white';
+    litButton = null;
+    lightRandomButton();
+  }, 1000);
+
+  }
+}
+
+
 
