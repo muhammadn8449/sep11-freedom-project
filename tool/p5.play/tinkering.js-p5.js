@@ -20,5 +20,6 @@ function draw() {
   clear();
 }
 
+lightRandmButton();
 
 
