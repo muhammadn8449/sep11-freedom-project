@@ -1,3 +1,8 @@
+let buttons = [];
+let litButton = null;
+let score = 0;
+let lightTimeout;
+
 let sprite;
 
 function setup() {
