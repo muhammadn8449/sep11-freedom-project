@@ -22,7 +22,7 @@ function draw() {
 
 lightRandmButton();
 
-funtion lightRandomButton() {
+function lightRandomButton() {
   if (litButton) {
 
   let index = floor(random(buttons,length));
