@@ -39,5 +39,20 @@ function lightRandomButton() {
   }
 }
 
+function mousePressed() {
+  if (litButton && mouseOverButton(litButton)){
+    score++;
+    clearTimeout(lighttimeout);
+    litButton.color = 'white';
+    litButton = null;
+    lightRandomButton();
+  }
+}
+
+function mouseOverButton(button) {
+  let d = dist(mouseX, mouseY, button.x, button.y);
+  return d < button.diameter / 2;
+}
+
 
 
