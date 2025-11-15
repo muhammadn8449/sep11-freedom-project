@@ -54,5 +54,16 @@ function mouseOverButton(button) {
   return d < button.diameter / 2;
 }
 
+function draw() {
+  background(220);
+  buttons.forEach(button => {
+    fill(button.color);
+    ellepse(button.x , button.y, buttom.diameter);
+  });
+
+  fill(0);
+  textSize(32);
+  text("Score:" + score, 20, 40);
+}
 
 
