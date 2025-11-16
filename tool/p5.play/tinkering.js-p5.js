@@ -12,6 +12,8 @@ function setup() {
     sprite.diameter = 50;
     sprite.x = x;
     sprite.y = y;
+    sprite.shapeColor = "white";
+    buttons.push(sprite);
 	}
 	circle(500, 200); circle(500, 300); circle(500, 100); circle(700, 300); circle(600, 300); circle(800, 300); circle(800, 100); circle(800, 200); circle(600, 100); circle(700, 100)
 
@@ -22,9 +24,33 @@ function setup() {
 function draw() {
   clear();
    allSprites.draw();
+
+   if (litButton && millis() - lightTimeout > 1000) {
+        litButton.shapeColor = "white";
+        litButton.diameter = 50;
+        litButton = null;
+        chooseRandomButton();
+    }
 }
 
 
+function chooseRandomButton() {
+    litButton = random(buttons);
+    litButton.shapeColor = "yellow";
+    litButton.diameter = 70;
+    lightTimeout = millis();
+}
+
+function mousePressed() {
+    if (litButton && dist(mouseX, mouseY, litButton.x, litButton.y) < litButton.diameter / 2) {
+        score++;
+        console.log("Score: " + score);
+        litButton.shapeColor = "white";
+        litButton.diameter = 50;
+        litButton = null;
+        chooseRandomButton();
+    }
+}
 
 
 
