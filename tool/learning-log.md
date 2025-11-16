@@ -75,6 +75,16 @@ Explore more examples in p5.play to decide if switching to it is better for this
     <li>```&&``` checks two things at the same time</liL>
 </ul>
 
+### Notes:
+<img src="" alt="">
+
+### What I'm going to be trying next:
+<ul>
+    <li>Add a time limit so you don't play the game forever</liL>
+    <li>Create a prompt saying "If you would like to restart please refresh the page" after the game ends.</liL>
+</ul>
+
+
 
 
 <!--
