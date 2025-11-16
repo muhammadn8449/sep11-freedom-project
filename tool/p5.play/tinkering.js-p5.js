@@ -14,11 +14,30 @@ function setup() {
     sprite.y = y;
 	}
 	circle(500, 200); circle(500, 300); circle(500, 100); circle(700, 300); circle(600, 300); circle(800, 300); circle(800, 100); circle(800, 200); circle(600, 100); circle(700, 100)
+
+
+  chooseRandomButton();
+
 }
 
 function draw() {
   clear();
+
+
+  if (litButton && millis() - lightTimeout > 1000) {
+    litButton.shapeColor = "white";
+    litButton = null;
+    chooseRandomButton();
+  }
 }
+
+
+function chooseRandomButton() {
+  litButton = random(buttons);
+  litButton.shapeColor = "yellow";
+  lightTimeout = millis();
+}
+
 
 
 
