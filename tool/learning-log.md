@@ -70,8 +70,9 @@ Explore more examples in p5.play to decide if switching to it is better for this
 ### Challenges / A-ha Moments:
 <ul>
     <li>Understanding what ```document.getElementById``` does</liL>
-    <li></liL>
-    <li></liL>
+    <li>learning null means "nothing currently selected"</liL>
+    <li>Understanding that ```millis()``` is for timing</liL>
+    <li>```&&``` checks two things at the same time</liL>
 </ul>
 
 
