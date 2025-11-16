@@ -8,7 +8,7 @@ let sprite;
 function setup() {
   new Canvas(1000, 600);
 	function circle(x, y){
-		 sprite = new Sprite();
+		let sprite = new Sprite();
     sprite.diameter = 50;
     sprite.x = x;
     sprite.y = y;
@@ -22,6 +22,7 @@ function setup() {
 
 function draw() {
   clear();
+  allSprites.draw();
 
 
   if (litButton && millis() - lightTimeout > 1000) {
