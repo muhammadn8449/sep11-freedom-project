@@ -65,10 +65,15 @@ Things I have Tried:
   <p id="scoreBoard">Score: 0</p>```
 
     <li>Made a score Board</li>
+        ```scoreBoard.style.display = "block";```
 
-    
     <li>Update the score everytime the user press the button on time</li>
-    <li>improved the timin of the game</li>
+            ```score += 5;
+        scoreDisplay.innerText = "Score: " + score;```
+
+    <li>improved the timing of the game</li>
+        ```if (litButton && millis() - lightTimeout > 600)```
+
     <li></li>
 </ul>
 
