@@ -56,6 +56,7 @@ Explore more examples in p5.play to decide if switching to it is better for this
 
 Links I have used today:
 <a href="https://www.w3schools.com/js/js_numbers.asp">JavaScript Numbers</a>
+<a href="https://p5play.org/learn/sprite">p5.play</a>
 
 
 
