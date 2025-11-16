@@ -49,7 +49,14 @@ Adding multiple shapes in color and music in the background if possible
 Explore more examples in p5.play to decide if switching to it is better for this project.
 
 ### X/X/XX:
-* Text
+* MISSED LL2
+
+
+### 11/16/25
+
+Links I have used today:
+<a href="https://www.w3schools.com/js/js_numbers.asp">JavaScript Numbers</a>
+
 
 
 
