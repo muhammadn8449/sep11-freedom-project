@@ -58,7 +58,19 @@ Links I have used today:
 <a href="https://www.w3schools.com/js/js_numbers.asp">JavaScript Numbers</a>
 <a href="https://p5play.org/learn/sprite">p5.play</a>
 
+Things I have Tried:
+<ul>
+    <li>Added a start button using HTML</li>
+        ```<button id="button">Start Game</button>
+  <p id="scoreBoard">Score: 0</p>```
 
+    <li>Made a score Board</li>
+
+    
+    <li>Update the score everytime the user press the button on time</li>
+    <li>improved the timin of the game</li>
+    <li></li>
+</ul>
 
 
 <!--
