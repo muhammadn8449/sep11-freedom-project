@@ -76,7 +76,7 @@ Explore more examples in p5.play to decide if switching to it is better for this
 </ul>
 
 ### Notes:
-<img src="" alt="">
+<img src="file:///C:/Users/jrnur/OneDrive/Pictures/Screenshots/Screenshot%202025-11-16%20121953.png" alt="Image of my notes">
 
 ### What I'm going to be trying next:
 <ul>
