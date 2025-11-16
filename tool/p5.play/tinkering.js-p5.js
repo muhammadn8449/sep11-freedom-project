@@ -20,51 +20,53 @@ function draw() {
   clear();
 }
 
-lightRandmButton();
 
-function lightRandomButton() {
-  if (litButton) {
 
-  let index = floor(random(buttons,length));
-  litButton = buttons[index];
+// lightRandmButton();
 
-  litButton.color = 'yellow';
+// function lightRandomButton() {
+//   if (litButton) {
 
-  lightTimeout = setTimeout(() => {
-    litButton.color = 'white';
-    litButton = null;
-    lightRandomButton();
-  }, 1000);
+//   let index = floor(random(buttons,length));
+//   litButton = buttons[index];
 
-  }
-}
+//   litButton.color = 'yellow';
 
-function mousePressed() {
-  if (litButton && mouseOverButton(litButton)){
-    score++;
-    clearTimeout(lighttimeout);
-    litButton.color = 'white';
-    litButton = null;
-    
-    lightRandomButton();
-  }
-}
+//   lightTimeout = setTimeout(() => {
+//     litButton.color = 'white';
+//     litButton = null;
+//     lightRandomButton();
+//   }, 1000);
 
-function mouseOverButton(button) {
-  let d = dist(mouseX, mouseY, button.x, button.y);
-  return d < button.diameter / 2;
-}
+//   }
+// }
 
-function draw() {
-  background(220);
-  buttons.forEach(button => {
-    fill(button.color);
-    ellepse(button.x , button.y, buttom.diameter);
-  });
+// function mousePressed() {
+//   if (litButton && mouseOverButton(litButton)){
+//     score++;
+//     clearTimeout(lighttimeout);
+//     litButton.color = 'white';
+//     litButton = null;
 
-  fill(0);
-  textSize(32);
-  text("Score:" + score, 20, 40);
-}
+//     lightRandomButton();
+//   }
+// }
+
+// function mouseOverButton(button) {
+//   let d = dist(mouseX, mouseY, button.x, button.y);
+//   return d < button.diameter / 2;
+// }
+
+// function draw() {
+//   background(220);
+//   buttons.forEach(button => {
+//     fill(button.color);
+//     ellepse(button.x , button.y, buttom.diameter);
+//   });
+
+//   fill(0);
+//   textSize(32);
+//   text("Score:" + score, 20, 40);
+// }
 
 
