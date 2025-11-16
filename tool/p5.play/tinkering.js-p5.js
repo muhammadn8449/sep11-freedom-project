@@ -45,6 +45,7 @@ function mousePressed() {
     clearTimeout(lighttimeout);
     litButton.color = 'white';
     litButton = null;
+    
     lightRandomButton();
   }
 }
