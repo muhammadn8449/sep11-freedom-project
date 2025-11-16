@@ -50,9 +50,9 @@ function chooseRandomButton() {
 }
 
 function mousePressed() {
-    if (litButton && dist(mouseX, mouseY, litButton.x, litButton.y) < litButton.diameter / 2) {
-        score++;
-        console.log("Score: " + score);
+    if (gameStarted && litButton && dist(mouseX, mouseY, litButton.x, litButton.y) < litButton.diameter / 2) {
+        score += 5;
+        scoreDisplay.innerText = "Score: " + score;
         litButton.shapeColor = "white";
         litButton.diameter = 50;
         litButton = null;
