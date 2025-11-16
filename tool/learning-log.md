@@ -54,29 +54,22 @@ Explore more examples in p5.play to decide if switching to it is better for this
 
 ### 11/16/25
 
-Links I have used today:
+### Links I have used today:
 <a href="https://www.w3schools.com/js/js_numbers.asp">JavaScript Numbers</a>
+<br>
 <a href="https://p5play.org/learn/sprite">p5.play</a>
 
-Things I have Tried:
+### Things I have Tried:
 <ul>
     <li>Added a start button using HTML</li>
-        ```<button id="button">Start Game</button>
-  <p id="scoreBoard">Score: 0</p>```
+    <li>Made a score Board</li>
+    <li>Update the score everytime the user press the button on time</li>
+    <li>improved the timing of the game 1s → 0.8s → 0.6s</li>
 </ul>
 
-<ul>
-    <li>Made a score board</li>
-    ```scoreBoard.style.display = "block";```
-</ul>
+### Challenges / A-ha Moments
 
-<ul>
-    <li></li>
-</ul>
 
-<ul>
-    <li></li>
-</ul>
 
 <!--
 * Links you used today (websites, videos, etc)
