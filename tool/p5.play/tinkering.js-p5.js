@@ -15,10 +15,13 @@ function setup() {
 	}
 	circle(500, 200); circle(500, 300); circle(500, 100); circle(700, 300); circle(600, 300); circle(800, 300); circle(800, 100); circle(800, 200); circle(600, 100); circle(700, 100)
 
+  chooseRandomButton();
+
 }
 
 function draw() {
   clear();
+   allSprites.draw();
 }
 
 
