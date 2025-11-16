@@ -4,7 +4,14 @@ let score = 0;
 let lightTimeout;
 let sprite;
 
+let gameStarted = false;
+let scoreDisplay = document.getElementById("scoreBoard");
 
+document.getElementById("button").addEventListener("click", () => {
+  gameStarted = true;
+  document.getElementById("button").style.display = "none";
+  scoreBoard.style.display = "block";
+});
 
 function setup() {
   new Canvas(1000, 600);
