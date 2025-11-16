@@ -63,20 +63,20 @@ Things I have Tried:
     <li>Added a start button using HTML</li>
         ```<button id="button">Start Game</button>
   <p id="scoreBoard">Score: 0</p>```
+</ul>
 
-    <li>Made a score Board</li>
-        ```scoreBoard.style.display = "block";```
+<ul>
+    <li>Made a score board</li>
+    ```scoreBoard.style.display = "block";```
+</ul>
 
-    <li>Update the score everytime the user press the button on time</li>
-            ```score += 5;
-        scoreDisplay.innerText = "Score: " + score;```
-
-    <li>improved the timing of the game</li>
-        ```if (litButton && millis() - lightTimeout > 600)```
-
+<ul>
     <li></li>
 </ul>
 
+<ul>
+    <li></li>
+</ul>
 
 <!--
 * Links you used today (websites, videos, etc)
