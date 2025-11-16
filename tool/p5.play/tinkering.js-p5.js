@@ -8,38 +8,19 @@ let sprite;
 function setup() {
   new Canvas(1000, 600);
 	function circle(x, y){
-		let sprite = new Sprite();
+		sprite = new Sprite();
     sprite.diameter = 50;
     sprite.x = x;
     sprite.y = y;
-    sprite.shapeColor = "white";
-    buttons.push(sprite);
 	}
 	circle(500, 200); circle(500, 300); circle(500, 100); circle(700, 300); circle(600, 300); circle(800, 300); circle(800, 100); circle(800, 200); circle(600, 100); circle(700, 100)
-
-
-  chooseRandomButton();
 
 }
 
 function draw() {
   clear();
-  allSprites.draw();
-
-
-  if (litButton && millis() - lightTimeout > 1000) {
-    litButton.shapeColor = "white";
-    litButton = null;
-    chooseRandomButton();
-  }
 }
 
-
-function chooseRandomButton() {
-  litButton = random(buttons);
-  litButton.shapeColor = "yellow";
-  lightTimeout = millis();
-}
 
 
 
