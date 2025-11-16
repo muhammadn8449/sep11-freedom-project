@@ -67,7 +67,12 @@ Explore more examples in p5.play to decide if switching to it is better for this
     <li>improved the timing of the game 1s → 0.8s → 0.6s</li>
 </ul>
 
-### Challenges / A-ha Moments
+### Challenges / A-ha Moments:
+<ul>
+    <li>Understanding what ```document.getElementById``` does</liL>
+    <li></liL>
+    <li></liL>
+</ul>
 
 
 
