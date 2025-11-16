@@ -25,7 +25,7 @@ function draw() {
   clear();
    allSprites.draw();
 
-   if (litButton && millis() - lightTimeout > 10000) {
+   if (litButton && millis() - lightTimeout > 600) {
         litButton.shapeColor = "white";
         litButton.diameter = 50;
         litButton = null;
