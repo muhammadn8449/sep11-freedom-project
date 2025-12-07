@@ -1,3 +1,6 @@
+let gameOver = false;
+let endTime;
+
 let buttons = [];
 let litButton = null;
 let score = 0;
@@ -11,6 +14,8 @@ document.getElementById("button").addEventListener("click", () => {
   gameStarted = true;
   document.getElementById("button").style.display = "none";
   scoreBoard.style.display = "block";
+
+  endTime = millis() + 30000;
 });
 
 function setup() {
@@ -39,6 +44,14 @@ function draw() {
         litButton = null;
         chooseRandomButton();
     }
+
+    if (gameStarted && !gameOver && millis() > endTime) {
+    gameOver = true;
+    litButton = null;
+    alert("Time's up! Final score: " + score);
+
+    alert("If you would like to restart, please refresh the page")
+}
 }
 
 
@@ -59,6 +72,7 @@ function mousePressed() {
         chooseRandomButton();
     }
 }
+
 
 
 
