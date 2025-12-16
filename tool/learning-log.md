@@ -109,8 +109,10 @@ Explore more examples in p5.play to decide if switching to it is better for this
     <li>Decoration</li>
 </ul>
 
+<br>
+<br>
 
-12/15/25
+### 12/15/25
 
 ### Links I used today:
 <ul>
