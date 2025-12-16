@@ -84,9 +84,52 @@ Explore more examples in p5.play to decide if switching to it is better for this
     <li>Create a prompt saying "If you would like to restart please refresh the page" after the game ends.</liL>
 </ul>
 
+### 12/06/25
+
+### Things I tried:
+<ul>
+    <li>Adding a 30 second timer so the user can see how many point they can achieve in 30 seconds</li>
+    <li>Added an alert so when the user is planning to reset the game, it will tell them to refresh the page</li>
+</lu>
+
+```gameStarted``` → the player has clicked start
+```!gameOver``` → the game isn’t already finished
+```millis() > endTime``` → 30 seconds have passed
+
+### challenges:
+<ol>
+    <li>The hardest part is making the 30-second timer work correctly while the game is running nonstop.</li>
+    <li>Keeping all those parts working together without breaking the rest of the code is what makes it challenging.</li>
+</ol>
+
+### What I'm going to be trying next:
+<ul>
+    <li>Chaning the background color</li>
+    <li>Try to attract more users to play my game</li>
+    <li>Decoration</li>
+</ul>
 
 
+12/15/25
 
+### Links I used today:
+<ul>
+    <li><a href="https://p5play.org/learn/sprite">p5.play</a></li>
+    <li><a href = "https://p5js.org/reference/">p5.js</a></li>
+</ul>
+
+### Things I have tried:
+<p>Basically playing around with my code to see how the game works. Also made some changes for timing to see if it's going to be easy for the user to play the game. I still hvaen't decorated enough, so I have to do that as soon as possible.</p>
+
+### Challenges:
+<p>I'm still wondering how can I attract the user to the game, cause when you go into my game, it looks boring but when you play it, it's not boring due to how challeneging it is. So I wanna make the platform itself look a bit more attracting.</p>
+
+### Things I'm trying next:
+<ul>
+    <li>Make a good looking background</li>
+    <li>Make the user look amazed when they enter my game, like before they start even playing</li>
+    <li>MAYBE make more adjusments for the timing because I still think it's a bit challenging for the user to score points, but when I tried it, it was at a decent pace.</li>
+</ul>
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
