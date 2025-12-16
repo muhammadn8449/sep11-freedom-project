@@ -76,7 +76,7 @@ Explore more examples in p5.play to decide if switching to it is better for this
 </ul>
 
 ### Notes:
-<img src="![alt text](<Screenshot 2025-11-16 121953.png>)" alt="Image of my notes">
+<img src="tool/Screenshot 2025-11-16 121953.png" alt="Image of my notes">
 
 ### What I'm going to be trying next:
 <ul>
