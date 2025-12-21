@@ -37,7 +37,7 @@ Project Page:<img width="1365" height="587" alt="Screenshot 2025-12-21 10 55 17 
 <h3>p5.play:</h3> <a href = "https://p5play.org/learn/sprite">Documentation</a>
 
 ### EDP:
-When I looked at my blog entry 1, I see that I got most of my plans done and went a little beyond my EDP. So right now I'm at stage where I wanna decorate my page and probably change some button to a different coordinates so it looks simple. When I get to finish what I wanna do at this stage process I might make the game a bit more complex if it seems too easy. Cause When I played my game, I got a score of 50 in 30 seconds. My goal is to reach 75+ and when I acccomplish my goal, I might decrease the timing from 0.7 to 0.5 for the sprite and also the 30 seconds to 25 for overall timing. 
+When I looked at my blog entry 1, I see that I got most of my plans done and went a little beyond my EDP. So right now I'm at stage where I wanna decorate my page and probably change some button to a different coordinates so it looks simple. When I get to finish what I wanna do at this stage process I might make the game a bit more complex if it seems too easy. Cause When I played my game, I got a score of 50 in 30 seconds. My goal is to reach 75+ and when I accomplish my goal, I might decrease the timing from 0.7 to 0.5 for the sprite and also the 30 seconds to 25 for overall timing. 
 
 Skills:
-
+Me learning about p5.play gave me the chance to research about p5.js because p5.play helped me build the system while p5.js helped me run the system. P5.js helped me with my time managment cause if it wasn't for p5.js, I would have changed my tool which mean I had to learn a new skill from the beginning. 
