@@ -38,7 +38,7 @@ function draw() {
   clear();
    allSprites.draw();
 
-   if (litButton && millis() - lightTimeout > 600) {
+   if (litButton && millis() - lightTimeout > 700) {
         litButton.shapeColor = "white";
         litButton.diameter = 50;
         litButton = null;
@@ -66,7 +66,6 @@ function mousePressed() {
     if (gameStarted && litButton && dist(mouseX, mouseY, litButton.x, litButton.y) < litButton.diameter / 2) {
         score += 5;
         scoreDisplay.innerText = "Score: " + score;
-        litButton.shapeColor = "white";
         litButton.diameter = 50;
         litButton = null;
         chooseRandomButton();
