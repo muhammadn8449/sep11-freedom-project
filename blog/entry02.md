@@ -33,7 +33,5 @@ function mousePressed() {
 Project Page:<img width="1365" height="587" alt="Screenshot 2025-12-21 10 55 17 AM" src="https://github.com/user-attachments/assets/8856aab9-7dc8-4c3f-b578-879cc62dc416" />
 
 ### Source:
-
-[Previous](entry01.md) | [Next](entry03.md)
-
-[Home](../README.md)
+<h3>p5.js Documentation:</h3> <a href = "https://p5js.org/reference/">Referance</a>
+<h3>p5.play:</h3> <a href = "https://p5play.org/learn/sprite">Documentation</a>
