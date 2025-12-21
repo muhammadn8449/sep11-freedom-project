@@ -35,3 +35,6 @@ Project Page:<img width="1365" height="587" alt="Screenshot 2025-12-21 10 55 17 
 ### Source:
 <h3>p5.js Documentation:</h3> <a href = "https://p5js.org/reference/">Referance</a>
 <h3>p5.play:</h3> <a href = "https://p5play.org/learn/sprite">Documentation</a>
+
+### EDP:
+When I looked at my blog entry 1, I see that I got most of my plans done
