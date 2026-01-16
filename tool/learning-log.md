@@ -132,6 +132,24 @@ Explore more examples in p5.play to decide if switching to it is better for this
     <li>Make the user look amazed when they enter my game, like before they start even playing</li>
     <li>MAYBE make more adjusments for the timing because I still think it's a bit challenging for the user to score points, but when I tried it, it was at a decent pace.</li>
 </ul>
+
+
+### 01/15/26
+### Links I have used:
+<a href="https://p5play.org/learn/sprite">HTML Color Picker</a>
+<a href = "https://p5js.org/reference/">p5.js</a>
+
+### Things I have tried:
+<ul>
+    <li>Adding a Background color - Mission accomplished</li>
+    <li>Changing the position or loctions of the "Start Game" button - mission failed</li>
+</ul>
+
+### Challenges:
+<ul>
+    <li>Changing the button posiion or location</li>
+    <li>Thinking about making the game a little harder by reducing the time, I'll think about it!</li>
+</ul>
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
